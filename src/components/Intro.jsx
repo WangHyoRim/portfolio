@@ -26,7 +26,7 @@ const Intro = () => {
                         <div>{introText.desc[2]}</div>
                     </div>
                     <div className="img">
-                        <img src="image/index.jpg" alt="나의 사진" />
+                        <img src="https://wanghyorim.github.io/portfolio/image/index.jpg" alt="나의 사진" />
                     </div>
                 </div>
                 <div className="intro__lines bottom" aria-hidden="true">
