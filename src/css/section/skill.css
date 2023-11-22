@@ -1,0 +1,149 @@
+.skill__inner {
+    padding: 16px;
+}
+.skill__title {
+    position: sticky;
+    top: 70px;
+    left: 0;
+    width: 70%;
+    height: 5vw;
+    font-size: 4vw;
+    font-weight: 900;
+    line-height: 1.6;
+    font-family: var(--mainKor-font);
+    text-transform: uppercase;
+    color: var(--black100);
+    border-bottom: 0.4vw solid var(--black100);
+    margin-bottom: 100px;
+}
+.skill__title em {
+    font-size: 2.3rem;
+    font-weight: 400;
+    line-height: 2;
+}
+.skill__item {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: sticky;
+    left: 0;
+}
+.skill__item.s1 {
+    background-color: var(--subBg100);
+    top: 180px;
+}
+.skill__item.s2 {
+    background-color: var(--subBg200);
+    top: 200px;
+}
+.skill__item.s3 {
+    background-color: var(--subBg300);
+    top: 220px;
+}
+.skill__item.s4 {
+    background-color: var(--subBg400);
+    top: 240px;
+}
+.skill__item .num {
+    font-size: 5vw;
+    line-height: 1;
+    font-weight: 900;
+    font-family: var(--mainNum-font);
+    position: absolute;
+    left: 1vw;
+    top: 1vw;
+}
+.skill__item .image {
+    width: 43%;
+    max-width: 450px;
+    max-height: 200px;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.skill__item .text {
+    left: 7vw;
+    margin-bottom: 1rem;
+    top: 1.5vw;
+    position: absolute;
+}
+.skill__item .text > div {
+    font-size: 3vw;
+    line-height: 1;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: var(--mainEng-font);
+}
+.skill__item .content {
+    font-family: var(--mainKor-font);
+    top: 1vw;
+    bottom: 3vw;
+    position: absolute;
+    right: 0;
+    margin-right: 7px;
+    width: 50%;
+    max-height: 65vh;
+    text-align: left;
+}
+ul{
+    list-style-type: disc;
+    color: black;
+}
+.skill__item .info {
+    position: absolute;
+    left: 0;
+    bottom: 3%;
+    width: 98%;
+    margin-left: 1%;
+    border-top: 1px solid var(--black);
+    border-bottom: 1px solid var(--black);
+    display: flex;
+    justify-content: space-between;
+}
+.skill__item .info span {
+    font-family: var(--mainKor-font);
+    font-size: 12px;
+    padding: 3px 0;
+    text-transform: uppercase;
+}
+@media (max-width: 800px){
+    .skill__content {
+        width: 100%;
+        margin-bottom: 10vw;
+        font-size: 30px;
+        height: auto;
+        top: 68px;
+        z-index: 1000;
+        background-color: var(--mainBg-color);
+    }
+    .skill__item.s1 {
+        top: 140px;
+    }
+    .skill__item.s2 {
+        top: 160px;
+    }
+    .skill__item.s3 {
+        top: 180px;
+    }
+    .skill__item.s4 {
+        top: 200px;
+    }
+    .skill__item .num {
+        font-size: 80px;
+        left: 20px;
+        top: 20px;
+    }
+    .skill__item .text > div {
+        font-size: 26px;
+    }
+    .skill__item .info {
+        flex-direction: column;
+        width: 90%;
+        margin-left: 5%;
+        padding: 5px 0;
+    }
+}
