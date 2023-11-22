@@ -12,7 +12,7 @@ const Project = () => {
                             <div>아두이노를 활용한 복불복 권투 오락기: 'GamBoxer'</div>
                         </div>
                         <div className="image">
-                            <img src="/image/project1.png" alt="project1" />
+                            <img src="https://wanghyorim.github.io/portfolio/image/project1.png" alt="project1" />
                         </div>
                         <h3 className="content">
                         <ul>
@@ -40,7 +40,7 @@ const Project = () => {
                             <div>가게부앱</div>
                         </div>
                         <div className="image">
-                            <img src="/image/project2.png" alt="project2" />
+                            <img src="https://wanghyorim.github.io/portfolio/image/project2.png" alt="project2" />
                         </div>
                         <h3 className="content">
                         <ul>
@@ -68,7 +68,7 @@ const Project = () => {
                             <div>도서관 관리 시스템</div>
                         </div>
                         <div className="image">
-                            <img src="/image/project3.png" alt="project3" />
+                            <img src="https://wanghyorim.github.io/portfolio/image/project3.png" alt="project3" />
                         </div>
                         <h3 className="content">
                         <ul>
@@ -95,7 +95,7 @@ const Project = () => {
                             <div>AI 자율주행 시뮬레이션 구현</div>
                         </div>
                         <div className="image">
-                            <img src="/image/project4.png" alt="project4" />
+                            <img src="https://wanghyorim.github.io/portfolio/image/project4.png" alt="project4" />
                         </div>
                         <h3 className="content">
                         <ul>

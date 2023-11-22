@@ -12,7 +12,7 @@ const Skill = () => {
                             <div>C언어</div>
                         </div>
                         <div className="image">
-                            <img src="/image/skill1.png" alt="skill1" />
+                            <img src="https://wanghyorim.github.io/portfolio/image/skill1.png" alt="skill1" />
                         </div>
                         <h3 className="content">
                         <ul>
@@ -38,7 +38,7 @@ const Skill = () => {
                             <div>웹프로그래밍</div>
                         </div>
                         <div className="image">
-                            <img src="/image/skill2.png" alt="skill2" />
+                            <img src="https://wanghyorim.github.io/portfolio/image/skill2.png" alt="skill2" />
                         </div>
                         <h3 className="content">
                         <ul>
